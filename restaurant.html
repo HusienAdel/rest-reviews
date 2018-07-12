@@ -1,7 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-US">
 
 <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Normalize.css for better cross-browser consistency -->
   <link rel="stylesheet" src="//normalize-css.googlecode.com/svn/trunk/normalize.css" />
   <!-- Main CSS file -->
@@ -27,11 +28,13 @@
   <!-- End header -->
 
   <!-- Beginning main -->
-  <main id="maincontent">
+  <main id="maincontent" class="mainContentSub">
     <!-- Beginning map -->
-    <section id="map-container">
-      <div id="map"></div>
+    <section id="map-container" aria-labelledby="map-aria-desc">
+      <div id="map" title="map"></div>
     </section>
+        <label id="map-aria-desc" class="map-aria-desc">google map</label>
+
     <!-- End map -->
     <!-- Beginning restaurant -->
     <section id="restaurant-container">

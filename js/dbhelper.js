@@ -9,7 +9,7 @@ class DBHelper {
    */
   static get DATABASE_URL() {
     // const port = 5500 // Change this to your server port
-    return `https://egydes.github.io/data/restaurants.json`;
+    return `https://egydes.github.io/rest-reviews/data/restaurants.json`;
   }
 
   /**

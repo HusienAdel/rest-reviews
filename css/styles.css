@@ -115,7 +115,7 @@ nav h1 a {
 .filter-options {
   width: 100%;
   height: 50px;
-  background-color: #3397DB;
+  background-color: #484848;
   align-items: center;
   display: flex;
 }
@@ -198,12 +198,13 @@ position: relative;
     padding: 0 0 10px 10px;
 
 }
-#restaurants-list li a {
-  background-color: orange;
+#restaurants-list li button {
+  background-color:#753c0b ;
   color: #fff;
-  display: inline-block;
+  display: block;
+  border: none;
   font-size: 10pt;
-  margin: 15px auto 0;
+  margin: 0px auto 0px;
   padding: 15px 30px;
   text-align: center;
   text-decoration: none;
@@ -216,8 +217,9 @@ bottom: 0;
 left: 0;
 
 }
-#restaurants-list li a:hover {
+#restaurants-list li button:hover {
   background-color: rgba(0,0,0,0.7);
+  cursor: pointer;
 }
 
 /* ====================== Restaurant Details ====================== */

@@ -14,7 +14,6 @@ const urlsToCache = [
   'restaurant.html?id=10',
   './css/styles.css',
   './data/restaurants.json',
-  './img/',
   './img/1.jpg',
   './img/2.jpg',
   './img/3.jpg',

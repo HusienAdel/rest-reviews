@@ -1,5 +1,5 @@
 
-#### _ Project - Restaurant Reviews_
+#  Project - Restaurant Reviews_
 
 ## Project Overview: Stage 1
 

@@ -16,10 +16,10 @@
   <header>
     <!-- Beginning nav -->
     <nav>
-      <h1><a href="/">Restaurant Reviews</a></h1>
+      <h1><a href="/" aria-label="home Restaurant Reviews">Restaurant Reviews</a></h1>
     </nav>
     <!-- Beginning breadcrumb -->
-    <ul id="breadcrumb" >
+    <ul id="breadcrumb" aria-label="Breadcrumb" role="navigation">
       <li><a href="/">Home</a></li>
     </ul>
     <!-- End breadcrumb -->
@@ -30,10 +30,9 @@
   <!-- Beginning main -->
   <main id="maincontent" class="mainContentSub">
     <!-- Beginning map -->
-    <section id="map-container" aria-labelledby="map-aria-desc">
+    <section id="map-container" aria-label="map">
       <div id="map" title="map"></div>
     </section>
-        <label id="map-aria-desc" class="map-aria-desc">google map</label>
 
     <!-- End map -->
     <!-- Beginning restaurant -->
@@ -46,8 +45,8 @@
     </section>
     <!-- end restaurant -->
     <!-- Beginning reviews -->
-    <section id="reviews-container">
-      <ul id="reviews-list"></ul>
+    <section id="reviews-container" aria-label="reviews list">
+      <ul id="reviews-list" ></ul>
     </section>
     <!-- End reviews -->
   </main>

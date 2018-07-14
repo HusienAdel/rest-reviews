@@ -12,18 +12,17 @@
 <body>
   <header>
     <nav>
-      <h1><a href="/">Restaurant Reviews</a></h1>
+      <h1><a href="/" aria-label="home Restaurant Reviews">Restaurant Reviews</a></h1>
     </nav>
   </header>
 
   <main id="maincontent">
-    <section id="map-container" aria-labelledby="map-aria-desc">
+    <section id="map-container" aria-label="map">
       <div id="map" title="map"></div>
     </section>
-    <label id="map-aria-desc" class="map-aria-desc">google map</label>
     <section>
       <div class="filter-options">
-        <h2>Filter Results</h2>
+        <h2 aria-label="Filter Results">Filter Results</h2>
         <select id="neighborhoods-select" name="neighborhoods" aria-label="neighborhoods select " onchange="updateRestaurants()">
           <option value="all">All Neighborhoods</option>
         </select>
